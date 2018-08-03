@@ -14,7 +14,7 @@ gulp.task('default', ['css', 'javascript'], function() {
 
     gulp.watch("app/js/*.js", ["javascript"]).on('change', browserSync.reload);
     gulp.watch("app/scss/**/*.scss", ['css']);
-    gulp.watch("app/html/*.html").on('change', browserSync.reload);
+    gulp.watch("public/html/*.html").on('change', browserSync.reload);
     gulp.watch("app/html/*.html", ["html"]);
 });
 
