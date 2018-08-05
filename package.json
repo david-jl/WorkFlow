@@ -1,7 +1,7 @@
 {
-  "name": "gulp-dopodcast",
+  "name": "Title",
   "version": "1.0.0",
-  "description": "App de prueba para la serie de vídeos en DOPodcast",
+  "description": "Descripcion",
   "main": "app/html/index.html",
   "scripts": {
     "gulp": "gulp",
