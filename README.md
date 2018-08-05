@@ -12,17 +12,23 @@ You need you install de dependencies from the json
 npm install
 ```
 
+### Firebase
+
+You have to change to files:
+* One in the root with no name, change the name of the project with yours
+* In index.html, at the bottom change the script where firebase is initialize with the one firebase give to you
 
 ## Include
 
+* Firebase
 * Bootstrap
 * Browser-sync
 * Autoprefixer
-* cssnano
-* htmlmin
-* imagemin
-* sass
-* uglify
+* Cssnano
+* Htmlmin
+* Imagemin
+* Sass
+* Uglify
 
 ## Directories
 
