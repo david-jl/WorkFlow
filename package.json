@@ -4,10 +4,10 @@
   "description": "App de prueba para la serie de vídeos en DOPodcast",
   "main": "app/html/index.html",
   "scripts": {
+    "gulp": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "scripts": { "gulp": "gulp" },
-  "author": "@juanwmedia",
+  "author": "@davidjl",
   "license": "UNLICENSED",
   "devDependencies": {
     "browser-sync": "^2.17.0",
