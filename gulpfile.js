@@ -13,7 +13,6 @@ gulp.task('default', ['css', 'javascript', 'html'], function() {
             baseDir: ["./public","./public/bootstrap"]
         }
     });
-
     gulp.watch("app/js/*.js", ["javascript"]).on('change', browserSync.reload);
     gulp.watch("app/scss/*.scss", ['css']).on('change', browserSync.reload);
     gulp.watch("app/html/*.html", ['html']).on('change', browserSync.reload);
