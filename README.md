@@ -49,3 +49,10 @@ Then, if you want to reduce images, run
 gulp imagenes
 ```
 
+## Issues
+
+If when you run "gulp imagenes" it throws an error, try this in your terminal
+```
+cd node_modules\gulp-imagemin
+npm i
+```
