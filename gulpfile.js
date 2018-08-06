@@ -18,8 +18,6 @@ gulp.task('default', ['css', 'javascript', 'html'], function() {
     gulp.watch("app/html/*.html", ['html']).on('change', browserSync.reload);
 });
 
-
-
 gulp.task('html', function() {
   return gulp.src('app/html/*.html')
     .pipe(htmlmin({collapseWhitespace: true}))
