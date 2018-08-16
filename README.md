@@ -25,7 +25,6 @@ You have to change in index.html, at the bottom change the script where firebase
 * Cssnano
 * Htmlmin
 * Imagemin
-* Sass
 * Uglify
 
 ## Directories
