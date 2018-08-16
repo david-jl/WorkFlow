@@ -1,5 +1,4 @@
 var gulp = require('gulp');
-var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var cssnano = require('gulp-cssnano');
 var imagemin = require('gulp-imagemin');
@@ -14,7 +13,7 @@ gulp.task('default', ['css', 'javascript', 'html'], function() {
         }
     });
     gulp.watch("app/js/*.js", ["javascript"]).on('change', browserSync.reload);
-    gulp.watch("app/scss/*.scss", ['css']).on('change', browserSync.reload);
+    gulp.watch("app/css/*.css", ['css']).on('change', browserSync.reload);
     gulp.watch("app/html/*.html", ['html']).on('change', browserSync.reload);
 });
 
@@ -37,8 +36,7 @@ gulp.task('javascript', function() {
 });
 
 gulp.task('css', function(){
-    return gulp.src('app/scss/*.scss')
-        .pipe(sass())
+    return gulp.src('app/css/*.css')
         .pipe(cssnano())
         .pipe(autoprefixer({
             browsers: ['last 4 versions'],
